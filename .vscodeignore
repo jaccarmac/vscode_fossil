@@ -1,0 +1,5 @@
+.fossil-settings/**
+.vscode/**
+src/**
+vsc-extension-quickstart.md
+vscode_fossil.nimble

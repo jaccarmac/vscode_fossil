@@ -1,0 +1,24 @@
+{
+    "name": "fossil",
+    "displayName": "Fossil",
+    "version": "0.1.0",
+    "publisher": "jaccarmac",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            }
+        ]
+    }
+}
